@@ -22,7 +22,13 @@
     <vendor email="k_o_@users.sourceforge.net" url="https://github.com/koh-osug/android-parcelable-intellij-plugin">Karsten Ohme</vendor>
 
     <description><![CDATA[
-            Plugin which generates Android Parcelable boilerplate code for you.
+    <p>
+            This tool generates an <a href="https://developer.android.com/reference/android/os/Parcelable.html">Android Parcelable</a> implementation based on fields in the class.
+            This tool is a new version of the original plugin of the <a href="https://github.com/mcharmas/android-parcelable-intellij-plugin">same name</a>, but which received no updates since 2016.
+    </p>
+    <p>
+            Usage: Press <b>ALT + Insert</b> (or your equivalent keybinding for code generation) in your editor and select <b>Parcelable</b>. It allows you to select the fields to be parceled.
+    </p>
       ]]></description>
 
     <change-notes><![CDATA[
