@@ -15,11 +15,11 @@
 ** limitations under the License.
 */
 -->
-<idea-plugin>
-    <id>pl.charmas.parcelablegenerator</id>
+<idea-plugin url="https://github.com/koh-osug/android-parcelable-intellij-plugin">
+    <id>de.ohmesoftware.parcelablegenerator</id>
     <name>Android Parcelable Code Generator</name>
     <version>0.7.1</version>
-    <vendor email="michal@charmas.pl" url="http://blog.charmas.pl">Michal Charmas</vendor>
+    <vendor email="k_o_@users.sourceforge.net" url="https://github.com/koh-osug/android-parcelable-intellij-plugin">Karsten Ohme</vendor>
 
     <description><![CDATA[
             Plugin which generates Android Parcelable boilerplate code for you.
@@ -55,7 +55,6 @@
     </actions>
 
     <depends>com.intellij.modules.platform</depends>
-    <depends>org.jetbrains.android</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
